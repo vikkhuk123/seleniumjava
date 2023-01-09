@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-18T17:28:11 EST" name="Default suite" finished-at="2022-12-18T17:28:11 EST" duration-ms="24">
+    <groups>
+      <group name="bvt">
+        <method signature="GroupDemoTest2.bTest1()[pri:3, instance:ui.GroupDemoTest2@47d90b9e]" name="bTest1" class="ui.GroupDemoTest2"/>
+        <method signature="GroupDemoTest2.bTest2()[pri:4, instance:ui.GroupDemoTest2@47d90b9e]" name="bTest2" class="ui.GroupDemoTest2"/>
+      </group> <!-- bvt -->
+      <group name="regression">
+        <method signature="GroupDemoTest2.aTest1()[pri:1, instance:ui.GroupDemoTest2@47d90b9e]" name="aTest1" class="ui.GroupDemoTest2"/>
+        <method signature="GroupDemoTest2.aTest2()[pri:2, instance:ui.GroupDemoTest2@47d90b9e]" name="aTest2" class="ui.GroupDemoTest2"/>
+        <method signature="GroupDemoTest2.bTest1()[pri:3, instance:ui.GroupDemoTest2@47d90b9e]" name="bTest1" class="ui.GroupDemoTest2"/>
+      </group> <!-- regression -->
+      <group name="user-registraton">
+        <method signature="GroupDemoTest2.aTest1()[pri:1, instance:ui.GroupDemoTest2@47d90b9e]" name="aTest1" class="ui.GroupDemoTest2"/>
+        <method signature="GroupDemoTest2.aTest2()[pri:2, instance:ui.GroupDemoTest2@47d90b9e]" name="aTest2" class="ui.GroupDemoTest2"/>
+        <method signature="GroupDemoTest2.bTest1()[pri:3, instance:ui.GroupDemoTest2@47d90b9e]" name="bTest1" class="ui.GroupDemoTest2"/>
+        <method signature="GroupDemoTest2.bTest2()[pri:4, instance:ui.GroupDemoTest2@47d90b9e]" name="bTest2" class="ui.GroupDemoTest2"/>
+      </group> <!-- user-registraton -->
+    </groups>
+    <test started-at="2022-12-18T17:28:11 EST" name="Default test" finished-at="2022-12-18T17:28:11 EST" duration-ms="24">
+      <class name="ui.GroupDemoTest2">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:ui.GroupDemoTest2@47d90b9e]" started-at="2022-12-18T17:28:11 EST" name="dataSetup" finished-at="2022-12-18T17:28:11 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method signature="aTest1()[pri:1, instance:ui.GroupDemoTest2@47d90b9e]" started-at="2022-12-18T17:28:11 EST" name="aTest1" finished-at="2022-12-18T17:28:11 EST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest1 -->
+        <test-method signature="aTest2()[pri:2, instance:ui.GroupDemoTest2@47d90b9e]" started-at="2022-12-18T17:28:11 EST" name="aTest2" finished-at="2022-12-18T17:28:11 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest2 -->
+        <test-method signature="bTest1()[pri:3, instance:ui.GroupDemoTest2@47d90b9e]" started-at="2022-12-18T17:28:11 EST" name="bTest1" finished-at="2022-12-18T17:28:11 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest1 -->
+        <test-method signature="bTest2()[pri:4, instance:ui.GroupDemoTest2@47d90b9e]" started-at="2022-12-18T17:28:11 EST" name="bTest2" finished-at="2022-12-18T17:28:11 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest2 -->
+        <test-method is-config="true" signature="dataTeardown()[pri:0, instance:ui.GroupDemoTest2@47d90b9e]" started-at="2022-12-18T17:28:11 EST" name="dataTeardown" finished-at="2022-12-18T17:28:11 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataTeardown -->
+      </class> <!-- ui.GroupDemoTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
